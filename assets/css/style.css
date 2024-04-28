@@ -52,12 +52,14 @@ nav{
     display:flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .citation {
     color: rgb(189, 186, 182);
     display:flex;
     justify-content: center;
+    text-align: center;
 }
 
 /*---------------------------------------------------------------------------*/
@@ -66,6 +68,7 @@ nav{
     margin-top: 5%;
     display:flex;
     align-items: center;
+    text-align: center;
 
     flex-direction: column;
 }
@@ -173,3 +176,47 @@ nav{
 }
 
 /*---------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 768px) {
+
+    nav {
+        width: 90%;
+        margin: 20px;
+    }
+
+    #name {
+        font-size: 500%;
+        margin: 85% 0%;
+    }
+
+    .titre {
+        margin-top: 10%;
+    }
+
+    .zone {
+        flex-direction: column;
+    }
+
+    .zone.centre,
+    #cv,
+    .cote,
+    .casetxt,
+    .card {
+        width: 90%;
+        margin: 5% auto;
+    }
+
+    .card img {
+        width: 70%;
+        margin: 8% 15%;
+    }
+
+    .nav_item {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .citation {
+        font-size: 14px;
+    }
+}
