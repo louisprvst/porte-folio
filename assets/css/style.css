@@ -29,6 +29,8 @@ nav{
     backdrop-filter: blur(10px);
 
     margin : 30px;
+
+    top: 0;
 }
 
 .nav_item{
@@ -198,11 +200,7 @@ nav{
         flex-direction: column;
     }
 
-    .zone.centre,
-    #cv,
-    .cote,
-    .casetxt,
-    .card {
+    .zone.centre , #cv , .cote , .casetxt , .card {
         width: 90%;
         margin: 5% auto;
     }
