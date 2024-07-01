@@ -169,13 +169,26 @@ nav{
     padding: 0px 15px;
 }
 
-.card img {
+.cardtxt {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardtxt h3 {
+    margin-top: 10px;
+}
+
+.cardimage {
     border: 2px solid rgb(80,80,80);
     border-radius: 20px;
 
     width: 80%;
 
     margin : 8% 8% 0% 8%;
+}
+
+.cardskill {
+    margin: 10% 0%;
 }
 
 /*---------------------------------------------------------------------------*/
