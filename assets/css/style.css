@@ -49,7 +49,8 @@ nav{
 /*---------------------------------------------------------------------------*/
 
 #name{
-    font-size: 1000%;
+    font-size: 6vw;
+    height: 100%;
     margin: 20%;
     display:flex;
     justify-content: center;
@@ -67,7 +68,7 @@ nav{
 /*---------------------------------------------------------------------------*/
 
 .titre{
-    margin-top: 5%;
+    margin-top: 4%;
     display:flex;
     align-items: center;
     text-align: center;
@@ -87,7 +88,6 @@ nav{
 }
 
 /*---------------------------------------------------------------------------*/
-
 
 #cv {
     width: 500px;
@@ -165,7 +165,6 @@ nav{
     flex-direction: column;
     align-items: center;
     text-align: center;
-
     padding: 0px 15px;
 }
 
@@ -188,7 +187,22 @@ nav{
 }
 
 .cardskill {
-    margin: 10% 0%;
+    width: 50px;
+    height: 50px;
+  }
+
+/*---------------------------------------------------------------------------*/
+
+#background {
+    background-image: url("../img/cote.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.shadow {
+    color: black;
+    text-shadow: 2px 2px 5px rgba(99, 99, 99, 0.7);
 }
 
 /*---------------------------------------------------------------------------*/

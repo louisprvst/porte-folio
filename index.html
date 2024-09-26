@@ -1,103 +1,115 @@
 <!DOCTYPE html>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="icon" href="assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/logo.png" type="image/x-icon">
 
-        <title>Louis Prévost</title>
-    </head>
+    <title>Louis Prévost</title>
+</head>
 
-    <body>
-        <header>
-            <nav>
-                <a href="#titreCV" class="nav_item">CV</a>
-                <a href="#titreParcours" class="nav_item">Parcours</a>
-                <a href="#titreComp" class="nav_item">Compétences</a>
-                <a href="#titreProjets" class="nav_item">Projets</a>
-            </nav>
-        </header>
+<body>
+    <header>
+        <nav>
+            <a href="#titreCV" class="nav_item">CV</a>
+            <a href="#titreParcours" class="nav_item">Parcours</a>
+            <a href="#titreComp" class="nav_item">Compétences</a>
+            <a href="#titreProjets" class="nav_item">Projets</a>
+        </nav>
+    </header>
 
-        <h1 id="name">Louis Prévost</h1>
+    <h1 id="name">Louis Prévost</h1>
 
-        <h3 class="citation"><i>Même le dernier d'une course est devant celui qui ne court pas</i></h3>
-        <h5 class="citation"><i>- Kahlil Gibran</i></h5>
+    <h3 class="citation"><i>Même le dernier d'une course est devant celui qui ne court pas</i></h3>
+    <h5 class="citation"><i>- Kahlil Gibran</i></h5>
+
+    <div class="titre">
+        <h1 id="titreCV">Je suis à la recherche d'un stage de 8 semaines en tant que développeur !</h1>
+    </div>
+
+    <div class="zone">
+        <div class="cote">
+            <img id="cv" src="assets/img/cv.png" alt="cv">
+        </div>
+
+        <div class="cote">
+            <a id="bouton" href="assets/download/cv_prevost_louis.pdf" download>Télécharger mon CV</a>
+        </div>
+    </div>
+
+    <div class="titre">
+        <h1 id="titreParcours">Mon parcours avec l'informatique</h1>
+    </div>
+
+    <div class="zone">
+        <div class="cote">
+            <h3 class="casetxt">J'ai toujours eu un certain attrait pour l'informatique et pendant le confinement, j'ai
+                suivi des formations en ligne en HTML, CSS et Python jusqu'à mon entrée en BUT.</h3>
+        </div>
+
+        <div class="cote">
+            <img class="image" src="assets/img/dev.png" alt="illustration">
+        </div>
+    </div>
+
+    <div class="zone centre">
+        <div class="cote">
+            <h3 class="casetxt">Je me suis donc orienté vers un bac STI2D option SIN en terminale, ce qui m'a permis de
+                mener à bien plusieurs projets intéressants, comme la commande à distance de tous les appareils d'une
+                chambre d'EHPAD avec une carte Arduino programmer en C.</h3>
+        </div>
+
+        <div class="cote">
+            <img class="image" src="assets/img/sin.png" alt="illustration">
+        </div>
+    </div>
+
+    <div class="zone">
+        <div class="cote">
+            <h3 class="casetxt">Pour finir, je me suis orienté vers un BUT informatique. Au cours de ces deux premiers
+                semestres, j'ai pu acquérir de nouvelles compétences grâce à des projets mêlant le côté technique à des
+                situations similaires à celles rencontrées en entreprise.</h3>
+        </div>
+
+        <div class="cote">
+            <img class="image" src="assets/img/iut.png" alt="illustration">
+        </div>
+    </div>
+
+
+
+    <div id="background">
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 160"><path fill="#000000" fill-opacity="1" d="M0,160L48,144C96,128,192,96,288,80C384,64,480,64,576,74.7C672,85,768,107,864,122.7C960,139,1056,149,1152,138.7C1248,128,1344,96,1392,80L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
 
         <div class="titre">
-            <h1 id="titreCV">Je suis à la recherche d'une alternance en tant que développeur !</h1>
-        </div>
-
-        <div class="zone">
-            <div class="cote">
-                <img id="cv" src="assets/img/cv.png" alt="cv">
-            </div>
-
-            <div class="cote">
-                <a id="bouton" href="assets/download/cv_prevost_louis.pdf" download>Télécharger mon CV</a>
-            </div>
-        </div>
-
-        <div class="titre">
-            <h1 id="titreParcours">Mon parcours avec l'informatique</h1>
-        </div>
-
-        <div class="zone">
-            <div class="cote">
-                <h3 class="casetxt">J'ai toujours eu un certain attrait pour l'informatique et pendant le confinement, j'ai suivi des formations en ligne en HTML, CSS et Python jusqu'à mon entrée en BUT.</h3>
-            </div>
-
-            <div class="cote">
-                <img class="image" src="assets/img/dev.png" alt="illustration">
-            </div>
-        </div>
-
-        <div class="zone centre">
-            <div class="cote">
-                <h3 class="casetxt">Je me suis donc orienté vers un bac STI2D option SIN en terminale, ce qui m'a permis de mener à bien plusieurs projets intéressants, comme la commande à distance de tous les appareils d'une chambre d'EHPAD avec une carte Arduino programmer en C.</h3>
-            </div>
-
-            <div class="cote">
-                <img class="image" src="assets/img/sin.png" alt="illustration">
-            </div>
-        </div>
-
-        <div class="zone">
-            <div class="cote">
-                <h3 class="casetxt">Pour finir, je me suis orienté vers un BUT informatique. Au cours de ces deux premiers semestres, j'ai pu acquérir de nouvelles compétences grâce à des projets mêlant le côté technique à des situations similaires à celles rencontrées en entreprise.</h3>
-            </div>
-
-            <div class="cote">
-                <img class="image" src="assets/img/iut.png" alt="illustration">
-            </div>
-        </div>
-
-        
-
-        <div class="titre">
-            <h1 id="titreComp">Soft Skills</h1>
+            <h1 class="shadow">Soft Skills</h1>
         </div>
 
         <div class="zone">
             <div class="card">
                 <div class="cardtxt">
                     <h3>Autonome</h3>
-                    <p>Je suis capable de travailler seul sur des projets en autonomie. Je suis capable de m'adapter à différentes situations et de faire des recherches seul.</p>
+                    <p>Je suis capable de travailler seul sur des projets en autonomie. Je suis capable de m'adapter à
+                        différentes situations et de faire des recherches seul.</p>
                 </div>
             </div>
 
             <div class="card">
                 <div class="cardtxt">
                     <h3>Curieux</h3>
-                    <p>Je m'intéresse à énormément de choses, particulièrement dans le domaine de l'IT, ce qui me pousse à apprendre constamment de nouvelles choses.</p>
+                    <p>Je m'intéresse à énormément de choses, particulièrement dans le domaine de l'IT, ce qui me pousse
+                        à apprendre constamment de nouvelles choses.</p>
                 </div>
             </div>
 
             <div class="card">
                 <div class="cardtxt">
                     <h3>Optimiste</h3>
-                    <p>Je pense être quelqu'un d'optimiste. Je ne suis pas du genre à baisser les bras, même quand la situation est difficile, je ne me décourage pas.</p>
+                    <p>Je pense être quelqu'un d'optimiste. Je ne suis pas du genre à baisser les bras, même quand la
+                        situation est difficile, je ne me décourage pas.</p>
                 </div>
             </div>
         </div>
@@ -105,70 +117,97 @@
 
 
         <div class="titre">
-            <h1>Hard Skills</h1>
+            <h1 class="shadow">Hard Skills</h1>
         </div>
 
         <div class="zone">
             <div class="card">
                 <div class="cardtxt">
                     <h3>Front</h3>
-                    <img class="cardskill" src="https://skillicons.dev/icons?i=null,html,css,js,jquery,null">
+                    <div class="icon">
+                        <img class="cardskill" src="https://skillicons.dev/icons?i=html">
+                        <img class="cardskill" src="https://skillicons.dev/icons?i=css">
+                        <img class="cardskill" src="https://skillicons.dev/icons?i=js">
+                        <img class="cardskill" src="https://skillicons.dev/icons?i=jquery">
+                    </div>
                 </div>
             </div>
 
             <div class="card">
                 <div class="cardtxt">
                     <h3>Back</h3>
-                    <img class="cardskill" src="https://skillicons.dev/icons?i=c,cpp,python,qt,java,postgres">
+                    <div class="icon">
+                        <img class="cardskill" src="https://skillicons.dev/icons?i=c">
+                        <img class="cardskill" src="https://skillicons.dev/icons?i=cpp">
+                        <img class="cardskill" src="https://skillicons.dev/icons?i=python">
+                        <img class="cardskill" src="https://skillicons.dev/icons?i=qt">
+                        <img class="cardskill" src="https://skillicons.dev/icons?i=java">
+                        <img class="cardskill" src="https://skillicons.dev/icons?i=postgres">
+                    </div>
                 </div>
             </div>
 
             <div class="card">
                 <div class="cardtxt">
                     <h3>Autres</h3>
-                    <img class="cardskill" src="https://skillicons.dev/icons?i=linux,windows,git,docker,arduino,blender">
+                    <div class="icon">
+                        <img class="cardskill" src="https://skillicons.dev/icons?i=linux">
+                        <img class="cardskill" src="https://skillicons.dev/icons?i=windows">
+                        <img class="cardskill" src="https://skillicons.dev/icons?i=git">
+                        <img class="cardskill" src="https://skillicons.dev/icons?i=docker">
+                        <img class="cardskill" src="https://skillicons.dev/icons?i=arduino">
+                    </div>
                 </div>
             </div>
         </div>
 
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 240" style="transform: translateY(10px);">
+            <path fill="#000000" fill-opacity="1" d="M0,224L48,208C96,192,192,160,288,160C384,160,480,192,576,213.3C672,235,768,245,864,213.3C960,181,1056,107,1152,85.3C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+        </svg>
+          
+    </div>
+    
 
 
-        <div class="titre">
-            <h1 id="titreProjets">Projets Marquant</h1>
-            <p>Cliquez sur les images si vous souhaitez en savoir plus :</p>
-        </div>
+    <div class="titre">
+        <h1 id="titreProjets">Projets Marquant</h1>
+        <p>Cliquez sur les images si vous souhaitez en savoir plus :</p>
+    </div>
 
-        <div class="zone">
-            <div class="card">
-                <a href="https://projets.jrcandev.netlib.re/jeuxolympiques/index.html" target="blank">
-                    <img class="cardimage" src="assets/img/siteJO.png" alt="presentation projet">
-                </a>
-                <div class="cardtxt">
-                    <h3>Site des Jeux Olympiques</h3>
-                    <p>Ce site répertorie tous les stades des Jeux Olympiques de Paris 2024, réalisé dans le cadre d'une SAE du premier semestre.</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <a href="https://github.com/louisprvst/Echec-Pokemon" target="blank">
-                    <img class="cardimage" src="assets/img/pokemon.png" alt="presentation projet">
-                </a>
-                <div class="cardtxt">
-                    <h3>Jeu d'échecs Pokémon en Java</h3>
-                    <p>Concept de jeu d'échecs où les pièces sont des Pokémon, réalisé en Java dans le cadre d'un TP au second semestre.</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <a href="https://github.com/louisprvst/Application_supermarche" target="blank">
-                    <img class="cardimage" src="assets/img/pyqt.png" alt="presentation projet">
-                </a>
-                <div class="cardtxt">
-                    <h3>Application Super Marché</h3>
-                    <p>Application en python / PyQt qui permet de créer le plan d'un magasin et d'établir le chemin le plus court pour tous ses articles.</p>
-                </div>
+    <div class="zone">
+        <div class="card">
+            <a href="https://projets.jrcandev.netlib.re/jeuxolympiques/index.html" target="blank">
+                <img class="cardimage" src="assets/img/siteJO.png" alt="presentation projet">
+            </a>
+            <div class="cardtxt">
+                <h3>Site des Jeux Olympiques</h3>
+                <p>Ce site répertorie tous les stades des Jeux Olympiques de Paris 2024, réalisé dans le cadre d'une SAE
+                    du premier semestre.</p>
             </div>
         </div>
 
-    </body>
+        <div class="card">
+            <a href="https://github.com/louisprvst/Echec-Pokemon" target="blank">
+                <img class="cardimage" src="assets/img/pokemon.png" alt="presentation projet">
+            </a>
+            <div class="cardtxt">
+                <h3>Jeu d'échecs Pokémon en Java</h3>
+                <p>Concept de jeu d'échecs où les pièces sont des Pokémon, réalisé en Java dans le cadre d'un TP au
+                    second semestre.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href="https://github.com/louisprvst/Application_supermarche" target="blank">
+                <img class="cardimage" src="assets/img/pyqt.png" alt="presentation projet">
+            </a>
+            <div class="cardtxt">
+                <h3>Application Super Marché</h3>
+                <p>Application en python / PyQt qui permet de créer le plan d'un magasin et d'établir le chemin le plus
+                    court pour tous ses articles.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
 </html>
