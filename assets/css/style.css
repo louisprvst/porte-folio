@@ -209,3 +209,31 @@ footer{
     background: white;
     box-shadow: white 0px 0px 20px;
 }
+
+/*---------------------------------------------------------------------------*/
+
+.techno {
+  width: 100%;
+  overflow: hidden;
+  margin: 40px auto;
+  padding: 10px 0;
+}
+
+.techno-content {
+  display: inline-flex;
+  gap: 20px;
+  animation: scroll 18s linear infinite;
+}
+
+.techno:hover .techno-content {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.techno-content img {
+  height: 40px;
+}
